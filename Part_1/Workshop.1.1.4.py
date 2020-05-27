@@ -10,6 +10,7 @@
 # When finished please send the statement and line number the code has stopped on to a tutor.
 
 memory = []
+line_count = 0
 
 # New function to check for duplicate entries in memory
 def checkForDupes(memory):
@@ -21,6 +22,10 @@ def checkForDupes(memory):
 with open("step_4.txt",'r') as f:
     #text_string = f.read()
     lines = f.readlines()
+
+with open("step_4.txt",'r') as f:    
+    for line in f:
+            line_count = line_count + 1
 
 result = checkForDupes(memory)
 
