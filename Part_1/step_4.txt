@@ -1360,7 +1360,6 @@ goto 9457
 replace 9605 7211
 goto 5779
 remove 3625
-replace 6456 7371
 remove 1230
 replace 2469 4504
 goto calc - 4268 100
@@ -3185,7 +3184,6 @@ remove 4816
 goto 189
 goto calc / 5690 75
 goto calc + 9254 89
-remove 8074
 goto calc - 9137 86
 goto 9697
 goto 1357
@@ -3894,7 +3892,6 @@ goto calc / 6624 38
 replace 7199 252
 goto 5047
 goto 1792
-goto 9347
 remove 6751
 remove 6087
 replace 6407 579
@@ -8071,7 +8068,6 @@ goto 3468
 goto 5384
 goto calc + 2699 37
 remove 667
-remove 1363
 goto calc / 7580 78
 remove 3724
 goto calc + 9791 19
