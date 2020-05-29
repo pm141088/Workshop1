@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Films Table</title>
+</head>
+<body>
+
+  <p>Print the films variable: {{ films }}</p>
+  <table style="width:50%">
+    <tr>
+      <th>Film</th>
+      <th>Stars</th>
+    </tr>
+    {% for row in films %}
+    <tr>
+      <td>{{ row }}</td> <td>{{ row }}</td>
+    </tr>
+    {% endfor %}
+</body>
+</html>
